@@ -1,0 +1,231 @@
+.bg-grey{
+  background-color: #fafafa;
+}
+.navss {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+.navss a {
+  color: #000;
+}
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.395);
+}
+.nav-item {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.nav-item a:hover {
+  color: orangered;
+}
+
+.carousel-fade {
+  opacity: o;
+  transition-duration: 0.6s;
+  transition-property: opacity;
+}
+
+.parent {
+  position: relative;
+}
+.txt {
+  /* background-color: rgba(0, 0, 0, 0.226);
+  position: absolute;
+  opacity: 0;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 3;
+  transition: opacity 1s;
+  transition: transform 1s; */
+  top: 50%;
+  left: 40%;
+}
+.brdr {
+  width: 40px;
+  height: 5px;
+}
+
+.title h2 {
+  font-size: 80px;
+  color: #f1f1f1;
+}
+.title h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.indicator {
+  width: 100%;
+  background: #eee;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.item1 {
+  padding-top: 4px;
+  clear: both;
+}
+.progre {
+  float: left;
+}
+.bran {
+  width: 80%;
+}
+.bran2 {
+  width: 95%;
+}
+.bran3 {
+  width: 85%;
+}
+.bran4 {
+  width: 70%;
+}
+
+.membersocial {
+  text-align: center;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  margin: 0% auto;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.socialinner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.socialinner a {
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0 12px;
+  color: #fff;
+}
+.membersocial {
+  max-width: 100%;
+  height: 90%;
+  background-color: rgba(242, 84, 84, 0.85);
+}
+.membersocial:hover {
+  opacity: 1;
+}
+
+.teamember {
+  max-width: 100%;
+  overflow: hidden;
+  transition: all 0.3s;
+  border-radius: 3px;
+}
+
+.teamember img {
+  transition: transform 0.3s ease;
+}
+
+.teamember:hover img {
+  transform: scale(1.1);
+}
+
+.details {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.btn {
+  border-radius: 3px;
+  padding: 15px 30px;
+  line-height: 1;
+  font-weight: 700;
+  color: white;
+}
+
+.lowercase h3 {
+  line-height: 50px;
+  font-weight: 400;
+  margin: 0;
+  font-weight: 400;
+}
+.icon {
+  color: red;
+}
+.titlee h3:hover {
+  color: orangered;
+}
+
+.titlee h3 {
+  font-size: 18px;
+}
+/* KASDASdaskdasldmlamsdlamsldmalsdma */
+.carousel-indicators [data-bs-target] {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-indent: 0;
+}
+.carousel-inner p {
+font-size: 25px;
+}
+ .to-top {
+  position: absolute;
+  display: block;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  cursor: pointer !important;
+}
+.footer-menu li {
+list-style-type: none;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.footer-menu li a:hover {
+  color: red;
+}
+.tags .tag {
+  display: block;
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 2px 10px;
+  font-size: 13px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.tags :hover {
+  color: red;
+}
+.tags a{
+  color:#fff;
+}
+.last ul li{
+  list-style: none;
+}
+.darkpg {
+  background-image: url(../images/footer/dotted-map.png);
+
+}
